@@ -1,0 +1,30 @@
+body {
+  background-color: aqua;
+}
+div {
+  background-color: blanchedalmond;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.text-bar {
+  margin-right: 30px;
+}
+.ba-wel {
+  margin: 0 15px;
+  display: none;
+}
+
+.fa-bars {
+  display: inline;
+}
+
+@media (min-width: 600px) {
+  .fa-bars {
+    display: none;
+  }
+  .ba-wel {
+    display: inline;
+  }
+}
