@@ -1,13 +1,17 @@
 body {
-  background-color: aqua;
   margin: 0;
   padding: 0;
+  overflow: scroll;
 }
-div {
+.ba-cot {
+  height: 10vh;
   background-color: blanchedalmond;
   display: flex;
   font-size: 30px;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .text-bar {
@@ -15,18 +19,78 @@ div {
 }
 .ba-wel {
   margin: 0 15px;
-  display: none;
-}
-
-.fa-bars {
   display: inline;
 }
 
-@media (min-width: 600px) {
+.fa-bars {
+  display: none;
+}
+
+.tex {
+  display: flex;
+  height: 80vh;
+}
+.tex .Bar {
+  background-color: black;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tex.bar.red {
+  background-color: red;
+}
+.huruf {
+  color: silver;
+}
+.color {
+  width: 200px;
+  height: 200px;
+  background-color: cornsilk;
+  margin: 90px;
+}
+.color.red {
+  background-color: red;
+}
+.color.yellow {
+  background-color: yellow;
+}
+.color.green {
+  background-color: green;
+}
+
+.tex .bor {
+  background-color: chartreuse;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  flex-wrap: wrap;
+}
+.tex .bor {
+  background-color: chartreuse;
+  width: 25%;
+}
+.footer {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  font-size: 3em;
+}
+@media (max-width: 800px) {
   .fa-bars {
-    display: none;
+    display: inline;
   }
   .ba-wel {
-    display: inline;
+    display: none;
+  }
+  .color {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
   }
 }
