@@ -45,10 +45,10 @@ body {
   color: silver;
 }
 .color {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: cornsilk;
-  margin: 90px;
+  margin: 50px;
 }
 .color.red {
   background-color: red;
@@ -81,7 +81,7 @@ body {
   background-color: cornflowerblue;
   font-size: 3em;
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .fa-bars {
     display: inline;
   }
